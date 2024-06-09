@@ -42,10 +42,10 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="h-[100px] bg-black">
-
+            <div className="flex items-center justify-between bg-black px-4 lg:px-6 py-4">
+                <i className="fas fa-info stroke-transparent text-[20px]"></i>
+                <i className="fas fa-envelope stroke-transparent text-[20px]"></i>
             </div>
-
             <div className="pulse z-[100] fixed right-[20px] bottom-[20px]">
                 <div className="h-[50px] w-[50px] bg-[#ff3b30] shadow-[0px_2px_2px_#00000066] rounded-full grid place-items-center ">
                     <img src="/images/flame.png" alt="flame" className="h-[40px] w-[40px]" />
