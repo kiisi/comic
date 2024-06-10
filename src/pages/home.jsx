@@ -21,7 +21,7 @@ export default function Home() {
 
     return (
         <div className="bg-black">
-            <nav ref={navbarRef} className="navbar h-[50px] fixed top-0 left-0 right-0 w-full bg-black px-4 flex justify-between items-center">
+            <nav ref={navbarRef} className="z-[999] navbar h-[50px] fixed top-0 left-0 right-0 w-full bg-black px-4 flex justify-between items-center">
                 <div>
                     <i className="fa-solid fa-bars-staggered text-white"></i>
                 </div>
@@ -73,7 +73,7 @@ export default function Home() {
             </figure>
 
             <section className="px-4 pb-10">
-                <header className="pb-4 font-bold text-white text-[28px]">
+                <header className="pb-4 font-bold text-white text-[24px] lg:text-[28px]">
                     <h1>Recently Released</h1>
                 </header>
                 <div className="flex gap-3 lg:gap-4">
@@ -134,11 +134,294 @@ export default function Home() {
 
             <section className="px-4 pb-10">
                 <header className="mb-2">
-                    <h1 className="text-white text-[28px] font-bold">This Season</h1>
+                    <h1 className="text-white text-[24px] lg:text-[28px] font-bold">This Season</h1>
                     <p className="text-white font-semibold uppercase text-[13px]">17TH APRIL - 26TH JUN 2024</p>
                 </header>
                 <div>
-                    <iframe className="rounded-[30px] border-[1px] border-[#dee2e6]" width="100%" height="200px" src="https://www.youtube.com/embed/_MLMz61zJSo?=1&amp;loop=1&amp;playlist=_MLMz61zJSo" frameBorder="0" allow="accelerometer; mute; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe className="rounded-[30px] border-[1px] border-[#dee2e6]" width="100%" height="200px" src="https://www.youtube.com/embed/_MLMz61zJSo?=1&amp;loop=1&amp;playlist=_MLMz61zJSo" allow="accelerometer; mute; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </section>
+
+            <section className="px-4 pb-10">
+                <header className="mb-2">
+                    <h1 className="text-white text-[24px] lg:text-[28px] font-bold">Comic Republic Originals</h1>
+                </header>
+                <div className="flex gap-3 lg:gap-4">
+                    <div className="flex flex-col flex-1 gap-3 lg:gap-4">
+                        <figure className="h-[300px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Character Bible <br />
+                                    2 Issues
+                                </button>
+                            </div>
+                            <img src="/images/characterbibleheroes.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Amadioha <br />
+                                    3 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Amadioha03.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Avonome <br />
+                                    11 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Avonome11.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Blade of the
+                                    Blackbird <br />
+                                    1 Issue
+                                </button>
+                            </div>
+                            <img src="/images/Blackbird01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Chibok <br />
+                                    1 Issue
+                                </button>
+                            </div>
+                            <img src="/images/Chibok.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Dead Republic <br />
+                                    2 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Deadrepublic1.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Galactic Core <br />
+                                    9 Issues
+                                </button>
+                            </div>
+                            <img src="/images/GCore09.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Guardianprime Genesis <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/guardianprimegenesis.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Hero Kekere <br />
+                                    12 Issues
+                                </button>
+                            </div>
+                            <img src="/images/HeroKekere12.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Metalla <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/metalla4fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Nneoma&rsquo;s Chronicles #1<br />
+                                    1 Issue
+                                </button>
+                            </div>
+                            <img src="/images/Nneoma01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Scion Immortal <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/scionimmortal04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Tear Sheet <br />
+                                    6 Issues
+                                </button>
+                            </div>
+                            <img src="/images/tearsheet06fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Triple Kill <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/triplekill4.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Vanguards <br />
+                                    21 Issues
+                                </button>
+                            </div>
+                            <img src="/images/VanguardsDiscovery02.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                    </div>
+                    <div className="flex flex-col flex-1 gap-3 lg:gap-4">
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Aje <br />
+                                    5 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Aje05.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Assegai <br />
+                                    8 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Assegai08.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Beatz <br />
+                                    7 Issues
+                                </button>
+                            </div>
+                            <img src="/images/beatz7.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Blackmoon <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Blackmoon04A.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    CR Dark <br />
+                                    1 Issue
+                                </button>
+                            </div>
+                            <img src="/images/crdark.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Eru <br />
+                                    9 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Eru09.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Guardianprime <br />
+                                    10 Issues
+                                </button>
+                            </div>
+                            <img src="/images/guardianprime10.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Hero Generation <br />
+                                    7 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Herogen07.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Ireti Bidemi <br />
+                                    7 Issues
+                                </button>
+                            </div>
+                            <img src="/images/IretiBidemi_7.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Ndoli <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Ndoli04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Presurrection <br />
+                                    3 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Presurrection2.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Tatashe <br />
+                                    5 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Tatashe05.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Trials of the Spear <br />
+                                    4 Issues
+                                </button>
+                            </div>
+                            <img src="/images/trialsofthespear04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Uhuru <br />
+                                    3 Issues
+                                </button>
+                            </div>
+                            <img src="/images/Uhuru03.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[300px] w-full relative group">
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold group-hover:underline mt-auto text-left ">
+                                    Visionary <br />
+                                    5 Issues
+                                </button>
+                            </div>
+                            <img src="/images/visionary04fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                    </div>
                 </div>
             </section>
         </div>
