@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: Helvetica, system-ui, sans-serif;
+  }
+}
+
+
 .hero-border-radius {
   border-radius: 0px 0px 85% 85% / 18%;
 }

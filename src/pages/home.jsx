@@ -20,13 +20,13 @@ export default function Home() {
     }, []);
 
     return (
-        <div>
+        <div className="bg-black">
             <nav ref={navbarRef} className="navbar h-[50px] fixed top-0 left-0 right-0 w-full bg-black px-4 flex justify-between items-center">
                 <div>
                     <i className="fa-solid fa-bars-staggered text-white"></i>
                 </div>
                 <figure>
-                    <img src="/logo.png" alt="Logo" className="h-[40px]" />
+                    <img src="/logo.png" alt="Logo" className="h-[35px]" />
                 </figure>
                 <div>
                     <i className="fa-solid fa-magnifying-glass text-white"></i>
@@ -42,7 +42,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-between bg-black px-4 lg:px-6 py-4">
+            <div className="flex items-center justify-between bg-black px-4 py-4">
                 <i className="fas fa-info stroke-transparent text-[20px]"></i>
                 <i className="fas fa-envelope stroke-transparent text-[20px]"></i>
             </div>
@@ -51,6 +51,22 @@ export default function Home() {
                     <img src="/images/flame.png" alt="flame" className="h-[40px] w-[40px]" />
                 </div>
             </div>
+            <figure className="grid place-items-center pb-10">
+                <img src="/images/hero-gen-logo.png" alt="hero gen logo" className="h-[93px]" />
+                <figcaption className="text-white text-[15px] opacity-90 font-extrabold mt-4 mb-2">HERO GEN #7</figcaption>
+                <div className="flex items-center gap-[4px] mb-2">
+                    {
+                        [...Array(5)].map((_, i) => (
+                            <i key={i} className="fa fa-star text-[#D8334A]"></i>
+                        ))
+                    }
+                </div>
+                <div className="flex items-center gap-[4px] text-[#D8334A] text-[12px] font-extrabold">
+                    <p>	• <span className="text-white opacity-50">NNADIEKWE </span></p>
+                    <p>	• <span className="text-white opacity-50">HUNGBEME </span></p>
+                    <p>	• <span className="text-white opacity-50"> OJERINDE</span> • </p>
+                </div>
+            </figure>
         </div>
     )
 }
