@@ -78,24 +78,42 @@ export default function Home() {
                 </header>
                 <div className="flex gap-3 lg:gap-4">
                     <div className="flex flex-col flex-1 gap-3 lg:gap-4">
-                        <figure className="h-[300px] w-full">
+                        <figure className="h-[300px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Hero Gen #7
+                            </button>
                             <img src="/images/hero-cover-01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px] object-top" />
                         </figure>
-                        <figure className="h-[350px] w-full">
+                        <figure className="h-[350px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Vanguards Discovery #2
+                            </button>
                             <img src="/images/VanguardsDiscovery02fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
-                        <figure className="h-[350px] w-full">
+                        <figure className="h-[350px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Trials Of The Spear #4
+                            </button>
                             <img src="/images/trialsofthespear04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                     </div>
                     <div className="flex flex-col flex-1 gap-3 lg:gap-4">
-                        <figure className="h-[350px] w-full">
+                        <figure className="h-[350px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Metalla #4
+                            </button>
                             <img src="/images/metalla4fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
-                        <figure className="h-[350px] w-full">
+                        <figure className="h-[350px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Blade of the Black Bird #1
+                            </button>
                             <img src="/images/Blackbird01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
-                        <figure className="h-[300px] w-full">
+                        <figure className="h-[300px] w-full relative">
+                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
+                                Tear sheet #6
+                            </button>
                             <img src="/images/tearsheet06fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                     </div>
