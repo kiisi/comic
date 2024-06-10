@@ -79,44 +79,66 @@ export default function Home() {
                 <div className="flex gap-3 lg:gap-4">
                     <div className="flex flex-col flex-1 gap-3 lg:gap-4">
                         <figure className="h-[300px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Hero Gen #7
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Hero Gen #7
+                                </button>
+                            </div>
                             <img src="/images/hero-cover-01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px] object-top" />
                         </figure>
                         <figure className="h-[350px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Vanguards Discovery #2
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Vanguards Discovery #2
+                                </button>
+                            </div>
                             <img src="/images/VanguardsDiscovery02fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                         <figure className="h-[350px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Trials Of The Spear #4
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Trials Of The Spear #4
+                                </button>
+                            </div>
                             <img src="/images/trialsofthespear04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                     </div>
                     <div className="flex flex-col flex-1 gap-3 lg:gap-4">
                         <figure className="h-[350px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Metalla #4
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Metalla #4
+                                </button>
+                            </div>
                             <img src="/images/metalla4fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                         <figure className="h-[350px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Blade of the Black Bird #1
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Blade of the Black Bird #1
+                                </button>
+                            </div>
                             <img src="/images/Blackbird01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                         <figure className="h-[300px] w-full relative">
-                            <button className="text-white absolute bottom-[10px] left-[10px] text-[14px] lg:text-[18px] font-bold hover:underline">
-                                Tear sheet #6
-                            </button>
+                            <div className="h-[120px] w-full bottom-0 p-[15px] left-0 absolute bg-soft-overlay flex flex-col">
+                                <button className="text-white text-[14px] lg:text-[18px] font-bold hover:underline mt-auto text-left ">
+                                    Tear sheet #6
+                                </button>
+                            </div>
                             <img src="/images/tearsheet06fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                     </div>
+                </div>
+            </section>
+
+            <section className="px-4 pb-10">
+                <header className="mb-2">
+                    <h1 className="text-white text-[28px] font-bold">This Season</h1>
+                    <p className="text-white font-semibold uppercase text-[13px]">17TH APRIL - 26TH JUN 2024</p>
+                </header>
+                <div>
+                    <iframe className="rounded-[30px] border-[1px] border-[#dee2e6]" width="100%" height="200px" src="https://www.youtube.com/embed/_MLMz61zJSo?=1&amp;loop=1&amp;playlist=_MLMz61zJSo" frameBorder="0" allow="accelerometer; mute; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                 </div>
             </section>
         </div>
