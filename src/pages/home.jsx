@@ -32,7 +32,8 @@ export default function Home() {
                     <i className="fa-solid fa-magnifying-glass text-white"></i>
                 </div>
             </nav>
-            <div className="bg-black">
+
+            <section className="bg-black">
                 <figure className="hero-border-radius shadow-xxl overflow-hidden">
                     <img src="/images/hero-cover-01.jpg" alt="Hero Cover 01" className="w-full shadow-xxl" />
                 </figure>
@@ -41,16 +42,19 @@ export default function Home() {
                         <i className="fa-solid fa-play text-[#D12827] text-[22px]"></i>
                     </div>
                 </div>
-            </div>
-            <div className="flex items-center justify-between bg-black px-4 py-4">
+            </section>
+
+            <section className="flex items-center justify-between bg-black px-4 py-4">
                 <i className="fas fa-info stroke-transparent text-[20px]"></i>
                 <i className="fas fa-envelope stroke-transparent text-[20px]"></i>
-            </div>
-            <div className="pulse z-[100] fixed right-[20px] bottom-[20px]">
+            </section>
+
+            <section className="pulse z-[100] fixed right-[20px] bottom-[20px]">
                 <div className="h-[50px] w-[50px] bg-[#ff3b30] shadow-[0px_2px_2px_#00000066] rounded-full grid place-items-center ">
                     <img src="/images/flame.png" alt="flame" className="h-[40px] w-[40px]" />
                 </div>
-            </div>
+            </section>
+
             <figure className="grid place-items-center pb-10">
                 <img src="/images/hero-gen-logo.png" alt="hero gen logo" className="h-[93px]" />
                 <figcaption className="text-white text-[15px] opacity-90 font-extrabold mt-4 mb-2">HERO GEN #7</figcaption>
@@ -67,6 +71,36 @@ export default function Home() {
                     <p>	• <span className="text-white opacity-50"> OJERINDE</span> • </p>
                 </div>
             </figure>
+
+            <section className="px-4 pb-10">
+                <header className="pb-4 font-bold text-white text-[28px]">
+                    <h1>Recently Released</h1>
+                </header>
+                <div className="flex gap-5">
+                    <div className="flex flex-col flex-1 gap-5">
+                        <figure className="h-[300px] w-full">
+                            <img src="/images/hero-cover-01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px] object-top" />
+                        </figure>
+                        <figure className="h-[350px] w-full">
+                            <img src="/images/VanguardsDiscovery02fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full">
+                            <img src="/images/trialsofthespear04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                    </div>
+                    <div className="flex flex-col flex-1 gap-5">
+                        <figure className="h-[350px] w-full">
+                            <img src="/images/metalla4fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[350px] w-full">
+                            <img src="/images/Blackbird01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                        <figure className="h-[300px] w-full">
+                            <img src="/images/tearsheet06fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
