@@ -76,8 +76,8 @@ export default function Home() {
                 <header className="pb-4 font-bold text-white text-[28px]">
                     <h1>Recently Released</h1>
                 </header>
-                <div className="flex gap-5">
-                    <div className="flex flex-col flex-1 gap-5">
+                <div className="flex gap-3 lg:gap-4">
+                    <div className="flex flex-col flex-1 gap-3 lg:gap-4">
                         <figure className="h-[300px] w-full">
                             <img src="/images/hero-cover-01.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px] object-top" />
                         </figure>
@@ -88,7 +88,7 @@ export default function Home() {
                             <img src="/images/trialsofthespear04.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
                     </div>
-                    <div className="flex flex-col flex-1 gap-5">
+                    <div className="flex flex-col flex-1 gap-3 lg:gap-4">
                         <figure className="h-[350px] w-full">
                             <img src="/images/metalla4fit.jpg" alt="Comic" className="h-full w-full object-cover rounded-[5px]" />
                         </figure>
